@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>notNotion-Quiz app</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<section class="quiz">
+				<div class="heading">
+					<p class="title">notNotion</p>
+					<p class="subTitle">
+						Daily Quiz To Text Your JavaScript Knowledge!!
+					</p>
+				</div>
+
+				<div class="result hide">
+					<p>Your Scored 5/5!</p>
+					<p class="reload">
+						<button>Try Agin?</button>
+					</p>
+				</div>
+
+				<form class="quiz-form">
+					<div class="question">
+						<p>
+							1. What is the correct syntax to declare a
+							JavaScript variable?
+						</p>
+						<div class="option">
+							<input
+								type="radio"
+								name="q1"
+								value="v myVar;"
+								checked
+							/>
+							<label for="">v myVar;</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q1" value="var myVar;" />
+							<label for="">var myVar;</label>
+						</div>
+						<div class="option">
+							<input
+								type="radio"
+								name="q1"
+								value="variable myVar;"
+							/>
+							<label for="">variable myVar;</label>
+						</div>
+						<div class="option">
+							<input
+								type="radio"
+								name="q1"
+								value="declare myVar;"
+							/>
+							<label for="">declare myVar;</label>
+						</div>
+					</div>
+					<div class="question">
+						<p>
+							2. Which of the following methods can be used to
+							display data in the browser console?
+						</p>
+						<div class="option">
+							<input
+								type="radio"
+								name="q2"
+								value="document.write()"
+								checked
+							/>
+							<label for="">document.write()</label>
+						</div>
+						<div class="option">
+							<input
+								type="radio"
+								name="q2"
+								value="console.log()"
+							/>
+							<label for="">console.log()</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q2" value="alert()" />
+							<label for="">alert()</label>
+						</div>
+						<div class="option">
+							<input
+								type="radio"
+								name="q2"
+								value="window.prompt()"
+							/>
+							<label for="">window.prompt()</label>
+						</div>
+					</div>
+					<div class="question">
+						<p>3. How do you create a function in JavaScript?</p>
+						<div class="option">
+							<input
+								type="radio"
+								name="q3"
+								value="function = myFunction()"
+								checked
+							/>
+							<label for="">function = myFunction()</label>
+						</div>
+						<div class="option">
+							<input
+								type="radio"
+								name="q3"
+								value="function myFunction()"
+							/>
+							<label for="">function myFunction()</label>
+						</div>
+						<div class="option">
+							<input
+								type="radio"
+								name="q3"
+								value="myFunction function()"
+							/>
+							<label for="">myFunction function()</label>
+						</div>
+						<div class="option">
+							<input
+								type="radio"
+								name="q3"
+								value="function:myFunction()"
+							/>
+							<label for="">function:myFunction()</label>
+						</div>
+					</div>
+					<div class="question">
+						<p>
+							4. Which of the following is a valid way to create
+							an array in JavaScript?
+						</p>
+						<div class="option">
+							<input
+								type="radio"
+								name="q4"
+								value="var myArray = {};"
+								checked
+							/>
+							<label for="">var myArray = {};</label>
+						</div>
+						<div class="option">
+							<input
+								type="radio"
+								name="q4"
+								value="var myArray = [];"
+							/>
+							<label for="">var myArray = [];</label>
+						</div>
+						<div class="option">
+							<input
+								type="radio"
+								name="q4"
+								value="var myArray = ();"
+							/>
+							<label for="">var myArray = ();</label>
+						</div>
+						<div class="option">
+							<input
+								type="radio"
+								name="q4"
+								value="var myArray = <>;"
+							/>
+							<label for="">var myArray = <>;</label>
+						</div>
+					</div>
+					<div class="question">
+						<p>
+							5. What is the purpose of the isNaN() function in
+							JavaScript?
+						</p>
+						<div class="option">
+							<input
+								type="radio"
+								name="q5"
+								value="To check if a value is a number"
+								checked
+							/>
+							<label for=""
+								>To check if a value is a number</label
+							>
+						</div>
+						<div class="option">
+							<input
+								type="radio"
+								name="q5"
+								value="To check if a value is not a number"
+							/>
+							<label for="">
+								To check if a value is not a number</label
+							>
+						</div>
+						<div class="option">
+							<input
+								type="radio"
+								name="q5"
+								value="To convert a value to a number"
+							/>
+							<label for="">To convert a value to a number</label>
+						</div>
+						<div class="option">
+							<input
+								type="radio"
+								name="q5"
+								value="To check if a value is null"
+							/>
+							<label for="">To check if a value is null</label>
+						</div>
+					</div>
+
+					<div class="submit">
+						<input type="submit" value="Submit" />
+					</div>
+				</form>
+			</section>
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>
